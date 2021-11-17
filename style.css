@@ -36,6 +36,9 @@ img{
     width: 25%;
 }
 
+h1{
+    font-family: 'Whitney', sans-serif;
+}
 
 /* Colors */
 
@@ -50,21 +53,43 @@ img{
 /* buttons */
 
 .btn{
-    border-radius: 15px;
-    text-decoration: none;
+    display: inline-block;
     font-family: 'Whitney', sans-serif;
     font-weight: 600;
     text-align: center;
     margin: 0 10px;
 }
 
+a{
+    text-decoration: none;
+
+}
 
 .btn-small{
+    border-radius: 15px;
     font-size: 13px;
     line-height: 35px;
     width: 70px;
     height: 35px;
     background-color: #fff;
+}
+
+.btn-light{
+    border-radius: 40px;
+    background-color: #fff;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.btn-dark{
+    border-radius: 40px;
+    background-color: #23272A;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
 }
 
 /* Header + nav */
@@ -109,8 +134,27 @@ img{
 
 .jumbotron{
     background-image: url(img/jumbo.png);
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
+}
+
+.jumbotron-content h1{
+    padding: 80px 0 30px 0;
+    color: white;
+    font-size: 50px;
+}
+
+.jumbotron-content p{
+    line-height: 30px;
+    font-family: 'Whitney', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#down-arrow{
+    font-size: 20px;
+    font-weight: 900;
 }
