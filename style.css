@@ -1,0 +1,23 @@
+/* Generics */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+/* Header + nav */
+
+header{
+    width: 1600px;
+    min-width: 600px;
+}
+
+/* TOP HEADER */
+
+.top-bar{
+    background-color: #3161E0;
+    width: 100%;
+    height: 80px;
+}
