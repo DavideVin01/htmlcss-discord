@@ -6,12 +6,22 @@
     /* font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif; */
 }
 
+img{
+    max-width: 100%;
+}
+
 /* Utilities */
 
 .clearfix{
     clear: both;
     display: table;
     content: '';
+}
+
+.container{
+    text-align: center;
+    min-width: 1400px;
+    margin: 0 auto;
 }
 
 .col{
@@ -59,18 +69,12 @@
 
 /* Header + nav */
 
-header{
-    text-align: center;
-    min-width: 1400px;
-    min-height: 600px;
-    margin: 0 auto;
-}
 
 
 /* TOP HEADER */
 
 .top-bar{
-    background-color: #3161E0;
+    background-color: #255EE9;
     width: 100%;
     height: 80px;
     line-height: 70px;
@@ -101,3 +105,12 @@ header{
     font-weight: 600;
 }
 
+/* JUMBOTRON */
+
+.jumbotron{
+    background-image: url(img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
